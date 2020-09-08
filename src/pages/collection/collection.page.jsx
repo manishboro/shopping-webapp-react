@@ -6,11 +6,6 @@ import { selectCollection } from "../../redux/shop/shop.selectors";
 import CollectionItem from "../../components/collection-item/collection-item.component";
 
 const CollectionPage = ({ collection }) => {
-  // const { match } = props;
-  // console.log("category", props);
-
-  console.log("collection", collection);
-
   const { title, items } = collection;
 
   return (
